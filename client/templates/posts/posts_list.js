@@ -1,3 +1,4 @@
+// Static data
 var postsData = [{
 	title: 'Introducing Telescope',
 	url: 'http://sachagreif.com/introducing-telescope/'
@@ -9,6 +10,7 @@ var postsData = [{
 	url: 'http://themeteorbook.com'
 }];
 
+// Template for postList
 Template.postsList.helpers({
 	posts: postsData
 });
